@@ -1,0 +1,52 @@
+:root {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+html {
+  border: 7px solid;
+  border-color: ;
+}
+
+body {
+  background-color: bisque;
+  font-family: ui-serif, "IBM Plex Serif", Charter, Times, "Times New Roman", serif;
+  line-height: 1.65;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2vw;
+}
+
+.travelog {
+  margin-bottom: 3rem;
+}
+
+.travelog h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.travelog time {
+  display: block;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.travelog iframe {
+  height: auto;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.travelog strong {
+  display: block;
+}
+
+a {
+  color: olivedrab;
+}
